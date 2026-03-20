@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏡 Personalized Real Estate Agent — HomeMatch
+# 🏡 Personalized Real Estate Agent - HomeMatch
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python" />
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <strong>An AI real estate agent that transforms generic property listings into deeply personalized narratives — matching homes to buyers using LLMs, vector databases, and semantic search.</strong>
+  <strong>An AI real estate agent that transforms generic property listings into deeply personalized narratives - matching homes to buyers using LLMs, vector databases, and semantic search.</strong>
 </p>
 
 </div>
@@ -51,12 +51,12 @@ The result: every buyer sees the same listing described differently - tailored t
 
 ## ✨ Features
 
-- 💬 **Natural language buyer intake** — capture preferences through conversational prompts
-- 🔍 **Semantic property search** — vector similarity matching beyond keyword filters
-- ✍️ **Personalized listing generation** — LLM rewrites listings to match buyer personality
-- 🗄️ **Vector database storage** — ChromaDB for fast embedding retrieval
-- 📊 **Synthetic listing generation** — LLM-generated realistic property data for testing
-- 🖥️ **Notebook-based workflow** — clean, reproducible end-to-end pipeline
+- 💬 **Natural language buyer intake** - capture preferences through conversational prompts
+- 🔍 **Semantic property search** - vector similarity matching beyond keyword filters
+- ✍️ **Personalized listing generation** - LLM rewrites listings to match buyer personality
+- 🗄️ **Vector database storage** - ChromaDB for fast embedding retrieval
+- 📊 **Synthetic listing generation** - LLM-generated realistic property data for testing
+- 🖥️ **Notebook-based workflow** - clean, reproducible end-to-end pipeline
 
 ---
 
@@ -161,24 +161,24 @@ jupyter notebook
 
 ## 🔍 How It Works
 
-**Step 1 — Generate Listings**
+**Step 1 - Generate Listings**
 The LLM generates a synthetic dataset of realistic real estate listings with attributes: bedrooms, bathrooms, neighborhood, price, features, and description.
 
-**Step 2 — Embed & Store**
+**Step 2 - Embed & Store**
 Listings are embedded using OpenAI's embedding model and stored in a ChromaDB vector collection for semantic retrieval.
 
-**Step 3 — Capture Buyer Preferences**
+**Step 3 - Capture Buyer Preferences**
 The system prompts the buyer with structured questions:
 - What neighborhood or city?
 - Preferred property size?
 - Must-have amenities?
 - Lifestyle priorities (quiet street, walkability, pet-friendly)?
 
-**Step 4 — Semantic Retrieval**
-Buyer preferences are embedded and matched against the listing vectors — retrieving the top-K most semantically relevant properties.
+**Step 4 - Semantic Retrieval**
+Buyer preferences are embedded and matched against the listing vectors - retrieving the top-K most semantically relevant properties.
 
-**Step 5 — Personalized Description**
-GPT-4 rewrites each retrieved listing's description to emphasize the features most relevant to that specific buyer's stated preferences — making every recommendation feel tailor-made.
+**Step 5 - Personalized Description**
+GPT-4 rewrites each retrieved listing's description to emphasize the features most relevant to that specific buyer's stated preferences - making every recommendation feel tailor-made.
 
 ---
 
@@ -188,7 +188,7 @@ GPT-4 rewrites each retrieved listing's description to emphasize the features mo
 > _"I'm a remote worker looking for a quiet 3-bedroom home near good coffee shops and parks. I have a dog and value natural light. Budget around $500K."_
 
 **Personalized Output (for a matching listing):**
-> _"This sun-drenched 3-bedroom retreat on Maple Avenue was made for the modern remote professional. Floor-to-ceiling windows bathe every workspace in natural light, while your dog will love direct access to Riverside Park just two blocks away. Artisan coffee at Blue Bottle is a 4-minute walk — your morning commute just got a lot shorter..."_
+> _"This sun-drenched 3-bedroom retreat on Maple Avenue was made for the modern remote professional. Floor-to-ceiling windows bathe every workspace in natural light, while your dog will love direct access to Riverside Park just two blocks away. Artisan coffee at Blue Bottle is a 4-minute walk - your morning commute just got a lot shorter..."_
 
 ---
 
