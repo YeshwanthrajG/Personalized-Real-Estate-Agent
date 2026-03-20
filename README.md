@@ -47,8 +47,6 @@
 
 The result: every buyer sees the same listing described differently — tailored to their unique priorities.
 
-This project was built as part of the **Udacity Generative AI Nanodegree**, applying LLMs, vector databases, and semantic search to a real-world vertical.
-
 ---
 
 ## ✨ Features
