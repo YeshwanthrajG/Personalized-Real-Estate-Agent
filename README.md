@@ -45,7 +45,7 @@
 2. Semantically search a vector database of property listings
 3. Generate **personalized, buyer-specific property descriptions** that highlight what matters most to that individual
 
-The result: every buyer sees the same listing described differently — tailored to their unique priorities.
+The result: every buyer sees the same listing described differently - tailored to their unique priorities.
 
 ---
 
